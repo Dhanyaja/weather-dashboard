@@ -7,7 +7,7 @@ It provides **real-time weather data, hourly insights, and historical trend anal
 
 ## 🔗 Live Demo
 
-👉 will be added soon
+👉 Live link
 `https://weather-dashboard-eight-eta-36.vercel.app/`
 
 ---
