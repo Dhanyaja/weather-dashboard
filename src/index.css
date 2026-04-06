@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bg text-textPrimary;
+}
+
+@layer components {
+  .card {
+    @apply bg-card border border-border rounded-xl shadow-card p-4 transition-all duration-200;
+  }
+
+  .card:hover {
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.1);
+  }
+
+  .card-title {
+    @apply text-lg text-textSecondary mb-2;
+  }
+
+  .metric-value {
+    @apply text-xl font-semibold text-textPrimary;
+  }
+
+  .sub-text {
+    @apply text-xs text-textSecondary;
+  }
+}
+
+/* Custom horizontal scrollbar */
+::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.2); /* blue */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.7);
+}
+
+/* Custom brush styles */
+
+.brush-custom .recharts-brush-traveller {
+  fill: #3b82f6; /* blue handles */
+  stroke: none;
+  rx: 4;
+}
+
+.brush-custom .recharts-brush-slide {
+  fill: rgba(59, 130, 246, 0.15); /* soft blue highlight */
+}
+
+.brush-custom .recharts-brush-texts {
+  fill: #94a3b8; /* muted text */
+}
