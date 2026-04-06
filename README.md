@@ -14,7 +14,12 @@ It provides **real-time weather data, hourly insights, and historical trend anal
 
 ## 📸 Screenshots
 
-_(after deployment)_
+### Page-1
+
+![Page-1](./screenshots/1.png)
+
+###Page-2
+![Page-2](./screenshots/2.png)
 
 ---
 
