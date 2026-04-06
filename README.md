@@ -1,16 +1,127 @@
-# React + Vite
+# 🌦️ Weather Insight Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather analytics dashboard built with **React, Tailwind CSS, and Open-Meteo APIs**.
+It provides **real-time weather data, hourly insights, and historical trend analysis** with interactive visualizations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Live Demo
 
-## React Compiler
+👉 will be added soon
+`https://your-app.vercel.app`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*(after deployment)*
+
+---
+
+## ✨ Features
+
+### 📍 Page 1: Current Weather & Hourly Forecast
+
+* 🌡️ Current, Minimum, and Maximum Temperature
+* 💧 Humidity, Precipitation & UV Index
+* 🌅 Sunrise & Sunset timings
+* 🌬️ Wind Speed & Rain Probability
+* 🌫️ Air Quality Metrics (PM10, PM2.5, CO, NO2, SO2, etc.)
+* 📊 Interactive hourly charts:
+
+  * Temperature (°C / °F toggle)
+  * Humidity
+  * Precipitation
+  * Visibility
+  * Wind Speed
+  * Air Quality trends
+
+---
+
+### 📈 Page 2: Historical Weather Analysis
+
+* 📅 Select custom date range (up to 2 years)
+* 🌡️ Temperature trends (Min, Max, Mean)
+* 🌧️ Total precipitation analysis
+* 💨 Maximum wind speed
+* 🧭 Dominant wind direction
+* 🌅 Average sunrise & sunset (IST)
+* 📊 Clean and interactive data visualizations
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React (Vite)
+* **Styling:** Tailwind CSS
+* **Charts:** Recharts
+* **APIs:**
+
+  * Open-Meteo Weather API
+  * Open-Meteo Air Quality API
+* **Deployment:** Vercel
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Dhanyaja/weather-dashboard.git
+cd weather-insight-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the app:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 🌍 APIs Used
+
+* https://api.open-meteo.com/
+* https://air-quality-api.open-meteo.com/
+* https://archive-api.open-meteo.com/
+
+---
+
+## 💡 Key Highlights
+
+* ⚡ Fast and lightweight (Vite)
+* 🎯 Clean and intuitive UI
+* 📊 Data-driven visualizations
+* 📱 Fully responsive design
+* 🔄 Real-time + historical insights
+
+---
+
+## 🚀 Future Improvements
+
+* 🌍 Search weather by city/location
+* 📌 Save favorite locations
+* 🌙 Dark/Light mode toggle
+* 📊 Advanced analytics (weekly/monthly summaries)
+
+---
+
+## 👨‍💻 Author
+
+**Dhanyaja Chakram**
+
