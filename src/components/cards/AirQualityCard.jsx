@@ -7,7 +7,7 @@ const AirQualityCard = ({ data }) => {
   };
 
   return (
-    <div className="card bg-card rounded-xl p-4 flex flex-col h-full">
+    <div className="card hover:translate-y-1">
       <div className="card-title">🌫 Air Quality</div>
 
       <div
